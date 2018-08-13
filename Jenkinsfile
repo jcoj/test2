@@ -3,8 +3,9 @@ pipeline {
 	stages {
 	  	stage("Checkout"){
  			steps {
-		 		git 'url https://github.com/beerkeeper/python-ip-script.git'
+		 		git  url 'https://github.com/beerkeeper/python-ip-script.git'
 			}
+   
 		}
         }
 }
