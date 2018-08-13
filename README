@@ -8,7 +8,6 @@ When Jenksfile is in the repo, all we have to do is to open the pipeline configu
 
 After saving, the build will always run from the current version of Jenkinsfile into the repository. 
 
-For the python script run sucessfully, we should install requiremnt library on jenkins host.
-
+For the python script run sucessfully you must install.
 pip install requests==2.16.5
 
