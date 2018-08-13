@@ -10,5 +10,10 @@ pipeline {
 			}
    
 		}
+		stage("Running the python app")
+			steps {
+				sh "/usr/bin/python main.py"
+
+			}
         }
 }
