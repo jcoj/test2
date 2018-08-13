@@ -6,4 +6,5 @@ pipeline {
 		 		git 'url https://github.com/beerkeeper/python-ip-script.git'
 			}
 		}
+        }
 }
